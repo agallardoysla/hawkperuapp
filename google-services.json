@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "979738891294",
+    "firebase_url": "https://camp-ebd9b.firebaseio.com",
+    "project_id": "camp-ebd9b",
+    "storage_bucket": "camp-ebd9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979738891294:android:4fb0a381432babeebc0a0f",
+        "android_client_info": {
+          "package_name": "com.camp.gestion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979738891294-ev1rr9n0c0b4kn6n9qaulmoeo12k5hvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByQH-oeh9J34GY-QQBwiXlIIQkkiNmQM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979738891294-ev1rr9n0c0b4kn6n9qaulmoeo12k5hvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
