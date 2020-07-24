@@ -6,7 +6,12 @@ import { connect } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
+//Screens
 import Home from './Home';
+import Map from './screens/Map'
+import Gestion from './screens/Gestion'
+import TomarFoto from './screens/TomarFoto'
+import Chat from './screens/Chat'
 
 const Navegador = (props) => {
 	const Stack = createStackNavigator();
@@ -17,9 +22,13 @@ const Navegador = (props) => {
 				screenOptions={{
 					headerShown: false,
 				}}
-				initialRouteName="Home"
+				initialRouteName="Gestion"
 			>
 				<Stack.Screen name="Home" component={Home} />
+				<Stack.Screen name='Map' component={Map}  />
+				<Stack.Screen name='Gestion' component={Gestion} initialParams={{Direccion: null, photo: null}} />
+				<Stack.Screen name='Camara' component={TomarFoto}  />
+				<Stack.Screen name='Chat' component={Chat}  />
 			</Stack.Navigator>
 		</NavigationContainer>
 	);
