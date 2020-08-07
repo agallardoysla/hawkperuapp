@@ -51,7 +51,6 @@ function Gestion(props){
         }
         //setTrigger(trigger+1)
     }, [params.photo, navigation, trigger])
-    //[params.photo, photos]
 
     return(
     
